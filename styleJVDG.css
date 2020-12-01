@@ -1,0 +1,62 @@
+footer {
+  text-align: center;
+  overflow: hidden;
+  background-color: white;
+}
+
+.title {
+  text-align: center;
+  overflow: hidden;
+  background-color: white;
+}
+
+nav {
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+nav li {
+	display: inline-block;
+	position: relative;
+  padding: 0.6rem 0.8rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown {
+	position: absolute;
+  left: 0;
+  display: none;
+  background-color: #FFECFF;
+  margin-top: 0.6rem;
+}
+
+.dropdown li {
+  width: 100%;
+  background-color: #FFECFF;
+}
+
+nav ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+nav li:hover {
+  background-color: #FFECFF;
+}
+
+.dropdown li:hover {
+  background-color: #FFC3FF;
+}
